@@ -1,0 +1,26 @@
+# .gitignore for Django
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Secret key
+secret_key.txt
+
+# Database
+db.sqlite3
+
+# Static files
+/static/
+media/
+
+# Virtual environment
+venv/
